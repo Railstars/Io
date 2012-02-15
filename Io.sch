@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="15" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="22" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="22" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="22" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="25" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="22" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="10" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="14" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -15410,6 +15410,456 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="RAILSTARS_25MM">
+<polygon width="0" layer="21">
+<vertex x="0.425" y="-0.001"/>
+<vertex x="0.003" y="-0.001"/>
+<vertex x="0.003" y="2.109"/>
+<vertex x="2.535" y="2.109"/>
+<vertex x="2.535" y="1.687"/>
+<vertex x="0.425" y="1.687"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.334" y="-0.001"/>
+<vertex x="5.912" y="-0.001"/>
+<vertex x="5.912" y="2.109"/>
+<vertex x="6.334" y="2.109"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="7.178" y="-0.001"/>
+<vertex x="6.756" y="-0.001"/>
+<vertex x="6.756" y="2.953"/>
+<vertex x="7.178" y="2.953"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="8.664" y="1.885"/>
+<vertex x="8.428" y="1.477"/>
+<vertex x="7.534" y="1.997"/>
+<vertex x="7.769" y="2.401"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="8.664" y="1.046"/>
+<vertex x="7.769" y="0.532"/>
+<vertex x="7.534" y="0.938"/>
+<vertex x="8.428" y="1.458"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="9.149" y="1.895"/>
+<vertex x="8.682" y="1.895"/>
+<vertex x="8.682" y="2.928"/>
+<vertex x="9.149" y="2.928"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="9.149" y="-0.001"/>
+<vertex x="8.682" y="-0.001"/>
+<vertex x="8.682" y="1.033"/>
+<vertex x="9.149" y="1.033"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="10.296" y="1.997"/>
+<vertex x="9.402" y="1.477"/>
+<vertex x="9.166" y="1.885"/>
+<vertex x="10.061" y="2.401"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="10.296" y="0.938"/>
+<vertex x="10.061" y="0.532"/>
+<vertex x="9.166" y="1.046"/>
+<vertex x="9.402" y="1.458"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="10.654" y="-0.001"/>
+<vertex x="10.654" y="0.421"/>
+<vertex x="12.76" y="0.421"/>
+<vertex x="12.76" y="0.843"/>
+<vertex x="10.654" y="0.843"/>
+<vertex x="10.654" y="2.109"/>
+<vertex x="13.182" y="2.109"/>
+<vertex x="13.182" y="1.687"/>
+<vertex x="11.072" y="1.687"/>
+<vertex x="11.072" y="1.265"/>
+<vertex x="13.182" y="1.265"/>
+<vertex x="13.182" y="-0.001"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="16.14" y="-0.001"/>
+<vertex x="13.609" y="-0.001"/>
+<vertex x="13.609" y="2.953"/>
+<vertex x="14.031" y="2.953"/>
+<vertex x="14.031" y="2.109"/>
+<vertex x="16.14" y="2.109"/>
+<vertex x="16.14" y="1.687"/>
+<vertex x="14.031" y="1.687"/>
+<vertex x="14.031" y="0.421"/>
+<vertex x="16.14" y="0.421"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="19.939" y="-0.001"/>
+<vertex x="19.517" y="-0.001"/>
+<vertex x="19.517" y="2.109"/>
+<vertex x="22.049" y="2.109"/>
+<vertex x="22.049" y="1.687"/>
+<vertex x="19.939" y="1.687"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="22.471" y="-0.001"/>
+<vertex x="22.471" y="0.421"/>
+<vertex x="24.581" y="0.421"/>
+<vertex x="24.581" y="0.843"/>
+<vertex x="22.471" y="0.843"/>
+<vertex x="22.471" y="2.109"/>
+<vertex x="25.003" y="2.109"/>
+<vertex x="25.003" y="1.687"/>
+<vertex x="22.893" y="1.687"/>
+<vertex x="22.893" y="1.265"/>
+<vertex x="25.003" y="1.265"/>
+<vertex x="25.003" y="-0.001"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="2.957" y="2.109"/>
+<vertex x="2.957" y="1.687"/>
+<vertex x="5.489" y="1.687"/>
+<vertex x="5.489" y="2.109"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="5.067" y="0.421"/>
+<vertex x="3.379" y="0.421"/>
+<vertex x="3.379" y="0.843"/>
+<vertex x="5.067" y="0.843"/>
+<vertex x="5.067" y="1.265"/>
+<vertex x="2.957" y="1.265"/>
+<vertex x="2.957" y="-0.001"/>
+<vertex x="5.067" y="-0.001"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="5.067" y="-0.001"/>
+<vertex x="5.489" y="-0.001"/>
+<vertex x="5.489" y="1.265"/>
+<vertex x="5.067" y="1.265"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="16.563" y="2.109"/>
+<vertex x="16.563" y="1.687"/>
+<vertex x="19.095" y="1.687"/>
+<vertex x="19.095" y="2.109"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="18.673" y="0.421"/>
+<vertex x="16.985" y="0.421"/>
+<vertex x="16.985" y="0.843"/>
+<vertex x="18.673" y="0.843"/>
+<vertex x="18.673" y="1.265"/>
+<vertex x="16.563" y="1.265"/>
+<vertex x="16.563" y="-0.001"/>
+<vertex x="18.673" y="-0.001"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="18.673" y="-0.001"/>
+<vertex x="19.095" y="-0.001"/>
+<vertex x="19.095" y="1.265"/>
+<vertex x="18.673" y="1.265"/>
+</polygon>
+</package>
+<package name="RAILSTARS_50MM">
+<polygon width="0" layer="21">
+<vertex x="0.85" y="0.004"/>
+<vertex x="0.006" y="0.004"/>
+<vertex x="0.006" y="4.223"/>
+<vertex x="5.069" y="4.223"/>
+<vertex x="5.069" y="3.379"/>
+<vertex x="0.85" y="3.379"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="12.667" y="0.004"/>
+<vertex x="11.823" y="0.004"/>
+<vertex x="11.823" y="4.223"/>
+<vertex x="12.667" y="4.223"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="14.355" y="0.004"/>
+<vertex x="13.512" y="0.004"/>
+<vertex x="13.512" y="5.911"/>
+<vertex x="14.355" y="5.911"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="17.328" y="3.776"/>
+<vertex x="16.856" y="2.959"/>
+<vertex x="15.067" y="3.999"/>
+<vertex x="15.537" y="4.807"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="17.328" y="2.097"/>
+<vertex x="15.537" y="1.07"/>
+<vertex x="15.067" y="1.88"/>
+<vertex x="16.856" y="2.921"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="18.299" y="3.795"/>
+<vertex x="17.364" y="3.795"/>
+<vertex x="17.364" y="5.861"/>
+<vertex x="18.299" y="5.861"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="18.299" y="0.004"/>
+<vertex x="17.364" y="0.004"/>
+<vertex x="17.364" y="2.072"/>
+<vertex x="18.299" y="2.072"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="20.593" y="3.999"/>
+<vertex x="18.803" y="2.959"/>
+<vertex x="18.332" y="3.776"/>
+<vertex x="20.122" y="4.807"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="20.593" y="1.88"/>
+<vertex x="20.122" y="1.07"/>
+<vertex x="18.332" y="2.097"/>
+<vertex x="18.803" y="2.921"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="21.308" y="0.004"/>
+<vertex x="21.308" y="0.848"/>
+<vertex x="25.52" y="0.848"/>
+<vertex x="25.52" y="1.691"/>
+<vertex x="21.308" y="1.691"/>
+<vertex x="21.308" y="4.223"/>
+<vertex x="26.364" y="4.223"/>
+<vertex x="26.364" y="3.379"/>
+<vertex x="22.145" y="3.379"/>
+<vertex x="22.145" y="2.535"/>
+<vertex x="26.364" y="2.535"/>
+<vertex x="26.364" y="0.004"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="32.281" y="0.004"/>
+<vertex x="27.218" y="0.004"/>
+<vertex x="27.218" y="5.911"/>
+<vertex x="28.061" y="5.911"/>
+<vertex x="28.061" y="4.223"/>
+<vertex x="32.281" y="4.223"/>
+<vertex x="32.281" y="3.379"/>
+<vertex x="28.061" y="3.379"/>
+<vertex x="28.061" y="0.848"/>
+<vertex x="32.281" y="0.848"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="39.879" y="0.004"/>
+<vertex x="39.035" y="0.004"/>
+<vertex x="39.035" y="4.223"/>
+<vertex x="44.098" y="4.223"/>
+<vertex x="44.098" y="3.379"/>
+<vertex x="39.879" y="3.379"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="44.943" y="0.004"/>
+<vertex x="44.943" y="0.848"/>
+<vertex x="49.162" y="0.848"/>
+<vertex x="49.162" y="1.691"/>
+<vertex x="44.943" y="1.691"/>
+<vertex x="44.943" y="4.223"/>
+<vertex x="50.006" y="4.223"/>
+<vertex x="50.006" y="3.379"/>
+<vertex x="45.787" y="3.379"/>
+<vertex x="45.787" y="2.535"/>
+<vertex x="50.006" y="2.535"/>
+<vertex x="50.006" y="0.004"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="5.915" y="4.223"/>
+<vertex x="5.915" y="3.379"/>
+<vertex x="10.978" y="3.379"/>
+<vertex x="10.978" y="4.223"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="10.134" y="0.848"/>
+<vertex x="6.758" y="0.848"/>
+<vertex x="6.758" y="1.691"/>
+<vertex x="10.134" y="1.691"/>
+<vertex x="10.134" y="2.535"/>
+<vertex x="5.915" y="2.535"/>
+<vertex x="5.915" y="0.004"/>
+<vertex x="10.134" y="0.004"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="10.134" y="0.004"/>
+<vertex x="10.978" y="0.004"/>
+<vertex x="10.978" y="2.535"/>
+<vertex x="10.134" y="2.535"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="33.126" y="4.223"/>
+<vertex x="33.126" y="3.379"/>
+<vertex x="38.189" y="3.379"/>
+<vertex x="38.189" y="4.223"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="37.345" y="0.848"/>
+<vertex x="33.97" y="0.848"/>
+<vertex x="33.97" y="1.691"/>
+<vertex x="37.345" y="1.691"/>
+<vertex x="37.345" y="2.535"/>
+<vertex x="33.126" y="2.535"/>
+<vertex x="33.126" y="0.004"/>
+<vertex x="37.345" y="0.004"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="37.345" y="0.004"/>
+<vertex x="38.189" y="0.004"/>
+<vertex x="38.189" y="2.535"/>
+<vertex x="37.345" y="2.535"/>
+</polygon>
+</package>
+<package name="RAILSTARS_1IN">
+<polygon width="0" layer="21">
+<vertex x="0.742" y="0.209"/>
+<vertex x="0.404" y="0.209"/>
+<vertex x="0.404" y="1.896"/>
+<vertex x="2.43" y="1.896"/>
+<vertex x="2.43" y="1.559"/>
+<vertex x="0.742" y="1.559"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="5.469" y="0.209"/>
+<vertex x="5.131" y="0.209"/>
+<vertex x="5.131" y="1.896"/>
+<vertex x="5.469" y="1.896"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.144" y="0.209"/>
+<vertex x="5.807" y="0.209"/>
+<vertex x="5.807" y="2.571"/>
+<vertex x="6.144" y="2.571"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="7.333" y="1.717"/>
+<vertex x="7.144" y="1.39"/>
+<vertex x="6.429" y="1.807"/>
+<vertex x="6.617" y="2.13"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="7.333" y="1.046"/>
+<vertex x="6.617" y="0.635"/>
+<vertex x="6.429" y="0.959"/>
+<vertex x="7.144" y="1.375"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="7.721" y="1.725"/>
+<vertex x="7.348" y="1.725"/>
+<vertex x="7.348" y="2.551"/>
+<vertex x="7.721" y="2.551"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="7.721" y="0.209"/>
+<vertex x="7.348" y="0.209"/>
+<vertex x="7.348" y="1.036"/>
+<vertex x="7.721" y="1.036"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="8.639" y="1.807"/>
+<vertex x="7.923" y="1.39"/>
+<vertex x="7.735" y="1.717"/>
+<vertex x="8.451" y="2.13"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="8.639" y="0.959"/>
+<vertex x="8.451" y="0.635"/>
+<vertex x="7.735" y="1.046"/>
+<vertex x="7.923" y="1.375"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="8.925" y="0.209"/>
+<vertex x="8.925" y="0.546"/>
+<vertex x="10.61" y="0.546"/>
+<vertex x="10.61" y="0.884"/>
+<vertex x="8.925" y="0.884"/>
+<vertex x="8.925" y="1.896"/>
+<vertex x="10.948" y="1.896"/>
+<vertex x="10.948" y="1.559"/>
+<vertex x="9.26" y="1.559"/>
+<vertex x="9.26" y="1.221"/>
+<vertex x="10.948" y="1.221"/>
+<vertex x="10.948" y="0.209"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="13.314" y="0.209"/>
+<vertex x="11.289" y="0.209"/>
+<vertex x="11.289" y="2.571"/>
+<vertex x="11.626" y="2.571"/>
+<vertex x="11.626" y="1.896"/>
+<vertex x="13.314" y="1.896"/>
+<vertex x="13.314" y="1.559"/>
+<vertex x="11.626" y="1.559"/>
+<vertex x="11.626" y="0.546"/>
+<vertex x="13.314" y="0.546"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="16.353" y="0.209"/>
+<vertex x="16.016" y="0.209"/>
+<vertex x="16.016" y="1.896"/>
+<vertex x="18.041" y="1.896"/>
+<vertex x="18.041" y="1.559"/>
+<vertex x="16.353" y="1.559"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="18.379" y="0.209"/>
+<vertex x="18.379" y="0.546"/>
+<vertex x="20.067" y="0.546"/>
+<vertex x="20.067" y="0.884"/>
+<vertex x="18.379" y="0.884"/>
+<vertex x="18.379" y="1.896"/>
+<vertex x="20.404" y="1.896"/>
+<vertex x="20.404" y="1.559"/>
+<vertex x="18.717" y="1.559"/>
+<vertex x="18.717" y="1.221"/>
+<vertex x="20.404" y="1.221"/>
+<vertex x="20.404" y="0.209"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="2.768" y="1.896"/>
+<vertex x="2.768" y="1.559"/>
+<vertex x="4.793" y="1.559"/>
+<vertex x="4.793" y="1.896"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="4.456" y="0.546"/>
+<vertex x="3.105" y="0.546"/>
+<vertex x="3.105" y="0.884"/>
+<vertex x="4.456" y="0.884"/>
+<vertex x="4.456" y="1.221"/>
+<vertex x="2.768" y="1.221"/>
+<vertex x="2.768" y="0.209"/>
+<vertex x="4.456" y="0.209"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="4.456" y="0.209"/>
+<vertex x="4.793" y="0.209"/>
+<vertex x="4.793" y="1.221"/>
+<vertex x="4.456" y="1.221"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="13.652" y="1.896"/>
+<vertex x="13.652" y="1.559"/>
+<vertex x="15.678" y="1.559"/>
+<vertex x="15.678" y="1.896"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="15.34" y="0.546"/>
+<vertex x="13.99" y="0.546"/>
+<vertex x="13.99" y="0.884"/>
+<vertex x="15.34" y="0.884"/>
+<vertex x="15.34" y="1.221"/>
+<vertex x="13.652" y="1.221"/>
+<vertex x="13.652" y="0.209"/>
+<vertex x="15.34" y="0.209"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="15.34" y="0.209"/>
+<vertex x="15.678" y="0.209"/>
+<vertex x="15.678" y="1.221"/>
+<vertex x="15.34" y="1.221"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="NUP2105">
@@ -15444,6 +15894,32 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pin name="P$2" x="-10.16" y="0" visible="pin" length="middle"/>
 <pin name="P$3" x="7.62" y="2.54" visible="pin" length="middle" rot="R180"/>
 </symbol>
+<symbol name="RAILSTARS_LOGO">
+<wire x1="1.27" y1="1.27" x2="1.27" y2="8.89" width="0.254" layer="94"/>
+<wire x1="1.27" y1="8.89" x2="1.27" y2="16.51" width="0.254" layer="94"/>
+<wire x1="1.27" y1="16.51" x2="1.27" y2="21.59" width="0.254" layer="94"/>
+<wire x1="1.27" y1="21.59" x2="1.27" y2="26.67" width="0.254" layer="94"/>
+<wire x1="1.27" y1="26.67" x2="74.93" y2="26.67" width="0.254" layer="94"/>
+<wire x1="74.93" y1="26.67" x2="74.93" y2="21.59" width="0.254" layer="94"/>
+<wire x1="74.93" y1="21.59" x2="74.93" y2="16.51" width="0.254" layer="94"/>
+<wire x1="74.93" y1="16.51" x2="74.93" y2="8.89" width="0.254" layer="94"/>
+<wire x1="74.93" y1="8.89" x2="74.93" y2="1.27" width="0.254" layer="94"/>
+<wire x1="74.93" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="8.89" x2="74.93" y2="8.89" width="0.2" layer="94"/>
+<wire x1="1.27" y1="16.51" x2="13.97" y2="16.51" width="0.2" layer="94"/>
+<wire x1="13.97" y1="16.51" x2="33.02" y2="16.51" width="0.2" layer="94"/>
+<wire x1="33.02" y1="16.51" x2="74.93" y2="16.51" width="0.2" layer="94"/>
+<wire x1="1.27" y1="21.59" x2="13.97" y2="21.59" width="0.2" layer="94"/>
+<wire x1="13.97" y1="21.59" x2="13.97" y2="16.51" width="0.2" layer="94"/>
+<wire x1="13.97" y1="21.59" x2="33.02" y2="21.59" width="0.2" layer="94"/>
+<wire x1="33.02" y1="21.59" x2="33.02" y2="16.51" width="0.2" layer="94"/>
+<wire x1="33.02" y1="21.59" x2="74.93" y2="21.59" width="0.2" layer="94"/>
+<text x="2.54" y="12.7" size="1.778" layer="94" font="vector">Copyright (C) 20</text>
+<text x="33.02" y="12.7" size="1.778" layer="94" font="vector">Railstars Limited</text>
+<text x="15.24" y="17.78" size="1.778" layer="94" font="vector">20  -  -  </text>
+<text x="2.54" y="10.16" size="1.778" layer="94" font="vector">http://railstars.com</text>
+<text x="2.54" y="17.78" size="1.778" layer="94" font="vector">REV </text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NUP2105L">
@@ -15457,6 +15933,28 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <connect gate="G$1" pin="P$2" pad="2"/>
 <connect gate="G$1" pin="P$3" pad="3"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RAILSTARS_LOGO">
+<gates>
+<gate name="G$1" symbol="RAILSTARS_LOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="25MM" package="RAILSTARS_25MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="50MM" package="RAILSTARS_50MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="20MM" package="RAILSTARS_1IN">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -20185,15 +20683,15 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="IC1" library="at90can128" deviceset="AT90CAN128" device=""/>
 <part name="IC2" library="can" deviceset="MCP2551" device="SO8"/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49S" value="56P2859"/>
-<part name="C2" library="rcl" deviceset="C-US" device="C1206" value="18pF"/>
-<part name="C1" library="rcl" deviceset="C-US" device="C1206" value="18pF"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C0805" value="18pF"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C0805" value="18pF"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
-<part name="C6" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="C15" library="rcl" deviceset="CPOL-US" device="UD-6,3X5,8" value="47uF"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R1206" value="100K"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0805" value="100K"/>
 <part name="S1" library="SparkFun" deviceset="TAC_SWITCH" device="PTH"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R1206" value="100K"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="100K"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -20205,12 +20703,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="D2" library="SparkFun" deviceset="DIODE" device="SMA" value="1N5819"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C16" library="rcl" deviceset="C-US" device="C1206" value="4.7nF"/>
+<part name="C16" library="rcl" deviceset="C-US" device="C0805" value="4.7nF"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="SOD123" value="1N4148"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C11" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206" value="POWER"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805" value="POWER"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -20220,21 +20718,21 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="X3" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
 <part name="S2" library="SparkFun" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="S3" library="SparkFun" deviceset="TAC_SWITCH" device="PTH"/>
-<part name="LED4" library="led" deviceset="LED" device="CHIPLED_1206" value="BLUE"/>
-<part name="LED5" library="led" deviceset="LED" device="CHIPLED_1206" value="GOLD"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R1206" value="2K"/>
+<part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805" value="BLUE"/>
+<part name="LED5" library="led" deviceset="LED" device="CHIP-LED0805" value="GOLD"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R0805" value="2K"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R1206" value="470"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R1206" value="470"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="R0805" value="470"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0805" value="470"/>
 <part name="D3" library="SparkFun" deviceset="DIODE" device="SMA" value="1N5819"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="CPOL-US" device="UD-6,3X5,8" value="47uF"/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="F1" library="SparkFun" deviceset="PTC" device="SMD" value="MICROSMD010F-2"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="C4" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="JP4" library="Railstars" deviceset="2X5_HEADER" device="SHROUDED" value=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
@@ -20247,67 +20745,67 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="IC5" library="v-reg" deviceset="LD117A?*" device="DT" technology="50TR"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="Q2" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="PMV56XN"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="JP12" library="Railstars" deviceset="2X5_HEADER" device="SHROUDED" value=""/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="Q3" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="PMV56XN"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="Q4" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="PMV56XN"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="Q5" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="PMV56XN"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="R14" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="Q6" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="PMV56XN"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="Q7" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="PMV56XN"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="Q8" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="PMV56XN"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="R17" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="Q9" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="PMV56XN"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
 <part name="D4" library="SparkFun" deviceset="DIODE" device="SMA" value="1N5819"/>
 <part name="F10" library="SparkFun" deviceset="PTC" device="SMD" value="MICROSMD010F-2"/>
-<part name="C5" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
-<part name="C7" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R19" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
-<part name="LED3" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R20" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
-<part name="LED6" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
-<part name="LED7" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R22" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
-<part name="LED8" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
-<part name="LED9" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R24" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
-<part name="LED10" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R25" library="rcl" deviceset="R-US_" device="R1206" value="1K"/>
-<part name="LED11" library="led" deviceset="LED" device="CHIPLED_1206"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R20" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="LED6" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R21" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="LED7" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R22" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="LED8" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="LED9" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R24" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="LED10" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R25" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="LED11" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="L1" library="rcl" deviceset="L-US" device="L3216C" value="CS321613-100K"/>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE" value=""/>
-<part name="R26" library="rcl" deviceset="R-US_" device="R1206" value="100"/>
+<part name="R26" library="rcl" deviceset="R-US_" device="R0805" value="100"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-US" device="C1206" value="4.7nF"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0805" value="4.7nF"/>
 <part name="R27" library="rcl" deviceset="R-US_" device="R1206" value="60.4"/>
 <part name="R28" library="rcl" deviceset="R-US_" device="R1206" value="60.4"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="JP8" library="pinhead" deviceset="PINHD-2X2" device=""/>
 <part name="JP9" library="pinhead" deviceset="PINHD-2X3" device="" value="ICSP"/>
 <part name="Q10" library="crystal" deviceset="CRYSTAL" device="TC26V"/>
-<part name="C9" library="rcl" deviceset="C-US" device="C1206" value="18pF"/>
-<part name="C12" library="rcl" deviceset="C-US" device="C1206" value="18pF"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="18pF"/>
+<part name="C12" library="rcl" deviceset="C-US" device="C0805" value="18pF"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X10" device="" value="OUTPUTS"/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X10" device="" value="INPUTS"/>
@@ -20315,6 +20813,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="JP10" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="JP13" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="U$4" library="Artificial Science" deviceset="RAILSTARS_LOGO" device="50MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -20361,11 +20860,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <text x="-157.48" y="35.56" size="2.54" layer="95" ratio="16">POWER FILTERING</text>
 <text x="-152.4" y="208.28" size="3.81" layer="95" ratio="16">RESET PIN</text>
 <text x="-38.1" y="177.8" size="3.81" layer="95" ratio="16">AVR CONNECTIONS</text>
-<text x="1.27" y="21.59" size="1.778" layer="94">"Io" NMRAnet 8-Line I/O Board</text>
-<text x="17.145" y="16.51" size="1.778" layer="94">2011 12 31</text>
+<text x="1.27" y="21.59" size="1.778" layer="94">Io Developer's Board</text>
+<text x="17.145" y="16.51" size="1.778" layer="94">12 02 15</text>
 <text x="7.62" y="16.51" size="1.778" layer="94">1.0</text>
-<text x="25.4" y="11.43" size="1.778" layer="94">11</text>
-<text x="28.956" y="8.89" size="1.778" layer="94">/hardware/io</text>
+<text x="25.4" y="11.43" size="1.778" layer="94">12</text>
+<text x="28.956" y="8.89" size="1.778" layer="94">/hardware/io/io-developers-board/</text>
 <text x="-33.02" y="48.26" size="1.778" layer="91">A0</text>
 <text x="-33.02" y="50.8" size="1.778" layer="91">A1</text>
 <text x="-33.02" y="53.34" size="1.778" layer="91">A2</text>
@@ -20706,6 +21205,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="JP10" gate="A" x="-81.28" y="53.34" rot="R270"/>
 <instance part="JP13" gate="A" x="-17.78" y="266.7" rot="MR0"/>
 <instance part="JP2" gate="G$1" x="-27.94" y="91.44" rot="R90"/>
+<instance part="U$4" gate="G$1" x="-1.27" y="-1.27"/>
 </instances>
 <busses>
 </busses>
